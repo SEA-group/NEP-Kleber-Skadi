@@ -1,0 +1,16 @@
+<FD007_Director_Mk51.mfm>
+	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/director/default_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/director/FD007_Director_Mk51_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/director/FD007_Director_Mk51_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/director/FD007_Director_Mk51_n.dds	</Texture>
+	</property>
+</FD007_Director_Mk51.mfm>

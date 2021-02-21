@@ -1,0 +1,43 @@
+<FSD012_Kleber_1952_Blade.mfm>
+	<fx>	shaders/std_effects/PBS_ship_anim_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	1.80000	</Float>
+	</property>	
+	<property>	animEmissionPower
+		<Float>	3.00000	</Float>
+	</property>
+	<property>	animScale
+		<Vector4>	1	1	1	1	</Vector4>
+	</property>
+	<property>	maskColor1
+		<Vector4>	0.0451	0.1157	0.2000	0.3086	</Vector4>
+	</property>
+	<property>	maskColor2
+		<Vector4>	0.0451	0.1157	0.2000	0.3086	</Vector4>
+	</property>
+	<property>	maskSpeed
+		<Vector4>	-0.026	0	1	0	</Vector4>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/default_ao.dds	</Texture>
+	</property>
+	<property>	animMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade_anim.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade_n.dds	</Texture>
+	</property>
+</FSD012_Kleber_1952_Blade.mfm>

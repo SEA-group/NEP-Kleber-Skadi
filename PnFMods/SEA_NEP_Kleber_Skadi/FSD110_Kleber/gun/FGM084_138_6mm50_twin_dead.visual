@@ -1,0 +1,119 @@
+<FGM084_138_6mm50_twin_dead.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Turret_dead	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	MP_FM479_Observation_post_dead	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM255_YGRS_Postap_M_1	</identifier>
+				<transform>
+					<row0>	0.3419 0.0000 0.0055 0.0000	</row0>
+					<row1>	0.0000 0.3419 0.0052 0.0000	</row1>
+					<row2>	-0.0055 -0.0052 0.3418 0.0000	</row2>
+					<row3>	0.0267 0.0882 0.4019 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM255_YGRS_Postap_M_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.3419 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.3419 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.3419 0.0000	</row2>
+					<row3>	-0.0267 0.0882 0.4019 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM265_YGLR_Postap_M_1	</identifier>
+				<transform>
+					<row0>	0.7898 -0.0346 0.0250 0.0000	</row0>
+					<row1>	0.0362 0.7884 -0.0517 0.0000	</row1>
+					<row2>	-0.0226 0.0528 0.7888 0.0000	</row2>
+					<row3>	0.1423 0.0814 -0.0848 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM266_YGLL_Postap_M_1	</identifier>
+				<transform>
+					<row0>	0.7909 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.7909 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 0.7909 0.0000	</row2>
+					<row3>	-0.1365 0.0822 -0.0850 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM267_YGLC_Postap_M_1	</identifier>
+				<transform>
+					<row0>	0.4679 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.4646 0.0554 0.0000	</row1>
+					<row2>	0.0000 -0.0554 0.4646 0.0000	</row2>
+					<row3>	0.0000 0.1668 -0.0523 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM440_YGRS_FranceArc_M_1	</identifier>
+				<transform>
+					<row0>	0.4048 0.0007 0.0064 0.0000	</row0>
+					<row1>	0.0000 0.4029 -0.0400 0.0000	</row1>
+					<row2>	-0.0075 0.0468 0.4712 0.0000	</row2>
+					<row3>	-0.0325 0.1232 0.3913 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM440_YGRS_FranceArc_M_1_INDEX_1	</identifier>
+				<transform>
+					<row0>	0.4048 0.0004 0.0040 0.0000	</row0>
+					<row1>	0.0000 0.4025 -0.0439 0.0000	</row1>
+					<row2>	-0.0047 0.0514 0.4707 0.0000	</row2>
+					<row3>	0.0218 0.1293 0.3917 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	MP_XM441_YGLL_FranceArc_M_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	-0.1367 0.0829 0.0012 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Turret_dead	</node>
+		<geometry>
+			<vertices>	Turret_deadShape.vertices	</vertices>
+			<primitive>	Turret_deadShape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin_dead.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.1892 -0.0548 -0.2515	</min>
+		<max>	0.1989 0.2015 0.4263	</max>
+	</boundingBox>
+</FGM084_138_6mm50_twin_dead.visual>

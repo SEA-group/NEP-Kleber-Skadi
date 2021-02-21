@@ -1,0 +1,25 @@
+<FGM084_138_6mm50_twin_skinned.mfm>
+	<fx>	shaders/std_effects/PBS_skinned_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	1.80000	</Float>
+	</property>	
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	150	</Int>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin_n.dds	</Texture>
+	</property>
+</FGM084_138_6mm50_twin_skinned.mfm>
