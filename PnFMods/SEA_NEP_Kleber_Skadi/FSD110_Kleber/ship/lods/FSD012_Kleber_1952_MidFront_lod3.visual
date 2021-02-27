@@ -204,7 +204,7 @@
 			<primitive>	MidFront_patch_MidBack_wire_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -218,7 +218,7 @@
 			<primitive>	MidFront_wire_flagfal_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -232,7 +232,7 @@
 			<primitive>	MidFront_wire_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

@@ -16,6 +16,42 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
+				<identifier>	FM877_1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5308 -0.7207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	FM877_1_wire	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5308 -0.7207 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	FM877_2	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5308 -1.3104 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	FM877_2_wire	</identifier>
+				<transform>
+					<row0>	-1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+					<row3>	0.0000 0.5308 -1.3104 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
 				<identifier>	MidBack_crack_MidFront	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
@@ -90,6 +126,62 @@
 				<material>
 					<identifier>	SHIPMATX_PBS_Crack	</identifier>
 					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	FM877_1	</node>
+		<geometry>
+			<vertices>	SEA_FM877_1.vertices	</vertices>
+			<primitive>	SEA_FM877_1.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMATX_PBS_FM877	</identifier>
+					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	FM877_2	</node>
+		<geometry>
+			<vertices>	SEA_FM877_2.vertices	</vertices>
+			<primitive>	SEA_FM877_2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMATX_PBS_FM877	</identifier>
+					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	FM877_1_wire	</node>
+		<geometry>
+			<vertices>	SEA_FM877_1_wire.vertices	</vertices>
+			<primitive>	SEA_FM877_1_wire.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIREX_PBS_FM877	</identifier>
+					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm_wire.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	FM877_2_wire	</node>
+		<geometry>
+			<vertices>	SEA_FM877_2_wire.vertices	</vertices>
+			<primitive>	SEA_FM877_2_wire.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPWIREX_PBS_FM877	</identifier>
+					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
 		</geometry>
@@ -186,7 +278,7 @@
 			<primitive>	MidBack_wire_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

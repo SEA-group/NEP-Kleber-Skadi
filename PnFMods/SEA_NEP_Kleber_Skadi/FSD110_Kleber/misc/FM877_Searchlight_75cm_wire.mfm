@@ -1,0 +1,13 @@
+<FM877_Searchlight_75cm_wire.mfm>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/misc/FM877_Searchlight_75cm_n.dds	</Texture>
+	</property>
+</FM877_Searchlight_75cm_wire.mfm>
