@@ -10,10 +10,10 @@
 		<Vector4>	1	1	1	1	</Vector4>
 	</property>
 	<property>	maskColor1
-		<Vector4>	0	0.2	0	1	</Vector4>
+		<Vector4>	0	0	0	1	</Vector4>
 	</property>
 	<property>	maskColor2
-		<Vector4>	0	0	1	1	</Vector4>
+		<Vector4>	0	0.2	1	1	</Vector4>
 	</property>
 	<property>	maskSpeed
 		<Vector4>	-0.012	0	1	0	</Vector4>
