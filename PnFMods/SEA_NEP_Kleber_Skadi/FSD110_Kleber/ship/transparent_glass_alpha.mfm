@@ -7,4 +7,7 @@
 	<property>	doubleSided
 		<Bool>	true	</Bool>
 	</property>
+	<property>	glassSpecular
+		<Bool>	3	</Bool>
+	</property>
 </transparent_glass_alpha.mfm>
