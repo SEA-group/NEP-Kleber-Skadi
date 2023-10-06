@@ -1,8 +1,14 @@
 <FSD012_Kleber_1952_Blade.mfm>
-	<fx>	shaders/std_effects/PBS_ship_anim_emissive.fx	</fx>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
 	<property>	emissivePower
 		<Float>	1.80000	</Float>
 	</property>	
+	<property>	emissionAnimationMode
+		<Int>	3	</Int>
+	</property>	
+	<property>	emissionColorMode
+		<Int>	1	</Int>
+	</property>
 	<property>	animEmissionPower
 		<Float>	3.00000	</Float>
 	</property>
