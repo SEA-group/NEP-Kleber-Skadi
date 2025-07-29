@@ -1,7 +1,6 @@
 <FGM084_138_6mm50_twin.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/lods/FGM084_138_6mm50_twin_lod1	</parent>
-	<extent>	5.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin	</nodefullVisual>
+	<visual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGM084_138_6mm50_twin.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FGM084_138_6mm50_twin.model>

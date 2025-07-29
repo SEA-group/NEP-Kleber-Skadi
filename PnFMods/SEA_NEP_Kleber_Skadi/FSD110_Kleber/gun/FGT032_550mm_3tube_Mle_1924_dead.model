@@ -1,7 +1,6 @@
 <FGT032_550mm_3tube_Mle_1924_dead.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/lods/FGT032_550mm_3tube_Mle_1924_dead_lod1	</parent>
-	<extent>	3.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924_dead	</nodefullVisual>
+	<visual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924_dead.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FGT032_550mm_3tube_Mle_1924_dead.model>

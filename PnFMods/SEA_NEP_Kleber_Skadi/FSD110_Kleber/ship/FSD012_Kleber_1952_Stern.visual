@@ -1,14 +1,7 @@
 <FSD012_Kleber_1952_Stern.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Stern	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,7 +9,7 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Stern_crack_MidBack	</identifier>
+				<identifier>	Stern	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -24,61 +17,204 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Stern_crack_MidBack_in	</identifier>
+					<identifier>	Stern_crack_MidBack	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
+					<node>
+						<identifier>	Stern_crack_MidBack_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern	</node>
-		<geometry>
-			<vertices>	SternShape.vertices	</vertices>
-			<primitive>	SternShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_crack_MidBack	</node>
-		<geometry>
-			<vertices>	Stern_crack_MidBackShape.vertices	</vertices>
-			<primitive>	Stern_crack_MidBackShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Stern_crack_MidBack_in	</node>
-		<geometry>
-			<vertices>	Stern_crack_MidBack_inShape.vertices	</vertices>
-			<primitive>	Stern_crack_MidBack_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0033 -0.0033 -0.3279	</min>
 		<max>	0.0033 0.0033 -0.3212	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	SternShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBackShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_crack_MidBack_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern_crack_MidBack	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Stern_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Stern	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	11.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	SternShape	</renderSet>
+				<renderSet>	Stern_crack_MidBackShape	</renderSet>
+				<renderSet>	Stern_crack_MidBack_inShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	25.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Stern_crack_MidBack_in_lod1Shape	</renderSet>
+				<renderSet>	Stern_crack_MidBack_lod1Shape	</renderSet>
+				<renderSet>	Stern_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Stern_crack_MidBack_in_lod2Shape	</renderSet>
+				<renderSet>	Stern_crack_MidBack_lod2Shape	</renderSet>
+				<renderSet>	Stern_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	300.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Stern_crack_MidBack_in_lod3Shape	</renderSet>
+				<renderSet>	Stern_crack_MidBack_lod3Shape	</renderSet>
+				<renderSet>	Stern_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FSD012_Kleber_1952_Stern.visual>

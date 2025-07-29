@@ -1,14 +1,7 @@
 <FRS023_DRBV_20A.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	FRS023	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,83 +9,183 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Net	</identifier>
+				<identifier>	FRS023	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-		</node>
-		<node>
-			<identifier>	Root	</identifier>
-			<transform>
-				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-			</transform>
-			<node>
-				<identifier>	Root_BlendBone	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Rotate_Y	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0333 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<identifier>	Net	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	Root	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+				<node>
+					<identifier>	Root_BlendBone	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-						<row3>	0.0000 -0.0333 0.0000 1.0000	</row3>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
+				</node>
+				<node>
+					<identifier>	Rotate_Y	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0333 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Rotate_Y_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.0000 -0.0333 0.0000 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
-		<node>	Root_BlendBone	</node>
-		<node>	Rotate_Y_BlendBone	</node>
-		<geometry>
-			<vertices>	FRS023Shape.vertices	</vertices>
-			<primitive>	FRS023Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Director_skinned	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS023_DRBV_20A_skinned.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
-		<node>	Rotate_Y_BlendBone	</node>
-		<geometry>
-			<vertices>	NetShape.vertices	</vertices>
-			<primitive>	NetShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	GRID_Misc_skinned	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/C004_Grid_1_alpha_skinned.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.1470 0.0000 -0.0568	</min>
 		<max>	0.1470 0.2672 0.0452	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	FRS023Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Director_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS023_DRBV_20A_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	NetShape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/C004_Grid_1_alpha_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FRS023_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Director_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS023_DRBV_20A_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Net_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/C004_Grid_1_alpha_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FRS023_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Director_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS023_DRBV_20A_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Net_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	GRID_Misc_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/C004_Grid_1_alpha_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	FRS023_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Root_BlendBone	</node>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Director_skinned	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS023_DRBV_20A_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FRS023Shape	</renderSet>
+				<renderSet>	NetShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FRS023_lod1Shape	</renderSet>
+				<renderSet>	Net_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FRS023_lod2Shape	</renderSet>
+				<renderSet>	Net_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	80.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	FRS023_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FRS023_DRBV_20A.visual>

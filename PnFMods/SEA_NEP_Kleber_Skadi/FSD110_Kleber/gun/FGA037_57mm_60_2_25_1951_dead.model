@@ -1,7 +1,6 @@
 <FGA037_57mm_60_2_25_1951_dead.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/lods/FGA037_57mm_60_2_25_1951_dead_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead	</nodefullVisual>
+	<visual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FGA037_57mm_60_2_25_1951_dead.model>

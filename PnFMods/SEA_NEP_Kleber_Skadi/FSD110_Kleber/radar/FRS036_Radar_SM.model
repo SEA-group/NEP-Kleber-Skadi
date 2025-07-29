@@ -1,17 +1,8 @@
 <FRS036_Radar_SM.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/lods/FRS036_Radar_SM_lod1	</parent>
-	<extent>	5.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS036_Radar_SM	</nodefullVisual>
-	<animation>
-		<name>	Rotation5rpm	</name>
-		<frameRate>	30.0000	</frameRate>
-		<nodes>	content/animation/common/Rotation5rpm	</nodes>
-	</animation>
-	<action>
-		<name>	idle	</name>
-		<animation>	Rotation5rpm	</animation>
-		<filler>	true	</filler>
-	</action>
+	<visual>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/radar/FRS036_Radar_SM.visual	</visual>
+	<animations>
+		<animation>	content/animation_state_machines/legacy/gameplay/FRS036_Radar_SM/FRS036_Radar_SM.ssm	</animation>
+	</animations>
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </FRS036_Radar_SM.model>

@@ -1,14 +1,7 @@
 <FGT032_550mm_3tube_Mle_1924.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Turret	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,73 +9,149 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Platform	</identifier>
+				<identifier>	Turret	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0494 0.0480 -0.2540 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0480 -0.2540 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire3	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	-0.0494 0.0480 -0.2540 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	Platform	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0494 0.0480 -0.2540 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0480 -0.2540 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0494 0.0480 -0.2540 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Platform	</node>
-		<geometry>
-			<vertices>	SEA_Holographic_Platform.vertices	</vertices>
-			<primitive>	SEA_Holographic_Platform.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Torp_Holo	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924_holo.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Turret	</node>
-		<geometry>
-			<vertices>	TurretShape.vertices	</vertices>
-			<primitive>	TurretShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Gun	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.1244 -0.0187 -0.3207	</min>
 		<max>	0.1161 0.1147 0.3250	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	SEA_Holographic_Platform	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Platform	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Torp_Holo	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924_holo.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	TurretShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Gun	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGT032_550mm_3tube_Mle_1924.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Holographic_Platform	</renderSet>
+				<renderSet>	TurretShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	11.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Holographic_Platform	</renderSet>
+				<renderSet>	Turret_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	25.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Holographic_Platform	</renderSet>
+				<renderSet>	Turret_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	150.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Holographic_Platform	</renderSet>
+				<renderSet>	Turret_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FGT032_550mm_3tube_Mle_1924.visual>

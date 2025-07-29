@@ -1,14 +1,7 @@
 <FSD012_Kleber_1952_Bow.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Bow	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,70 +9,7 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Logo	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Blade_L	</identifier>
-				<transform>
-					<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
-					<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Blade_R	</identifier>
-				<transform>
-					<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
-					<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Connector_L	</identifier>
-				<transform>
-					<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
-					<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Connector_R	</identifier>
-				<transform>
-					<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
-					<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Handle_L	</identifier>
-				<transform>
-					<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
-					<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Handle_R	</identifier>
-				<transform>
-					<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
-					<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	Bow_crack_MidFront	</identifier>
+				<identifier>	Bow	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -87,7 +17,88 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Bow_crack_MidFront_in	</identifier>
+					<identifier>	Logo	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Blade_L	</identifier>
+					<transform>
+						<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
+						<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Blade_R	</identifier>
+					<transform>
+						<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
+						<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Connector_L	</identifier>
+					<transform>
+						<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
+						<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Connector_R	</identifier>
+					<transform>
+						<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
+						<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Handle_L	</identifier>
+					<transform>
+						<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
+						<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Handle_R	</identifier>
+					<transform>
+						<row0>	0.9500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.9500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.9500 0.0000	</row2>
+						<row3>	0.0000 -0.0300 0.0000 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	Bow_crack_MidFront	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Bow_crack_MidFront_in	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+						</transform>
+					</node>
+				</node>
+				<node>
+					<identifier>	Bow_patch_MidFront	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -96,173 +107,339 @@
 					</transform>
 				</node>
 			</node>
-			<node>
-				<identifier>	Bow_patch_MidFront	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
-			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow	</node>
-		<geometry>
-			<vertices>	BowShape.vertices	</vertices>
-			<primitive>	BowShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Logo	</node>
-		<geometry>
-			<vertices>	SEA_LogoPlanes.vertices	</vertices>
-			<primitive>	SEA_LogoPlanes.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_LogoPlanes	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Logo.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Handle_L	</node>
-		<geometry>
-			<vertices>	SEA_Sword_Handle_L_32.vertices	</vertices>
-			<primitive>	SEA_Sword_Handle_L_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Blade	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Handle_R	</node>
-		<geometry>
-			<vertices>	SEA_Sword_Handle_R_32.vertices	</vertices>
-			<primitive>	SEA_Sword_Handle_R_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Blade	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Blade_L	</node>
-		<geometry>
-			<vertices>	SEA_Sword_Blade_L_32.vertices	</vertices>
-			<primitive>	SEA_Sword_Blade_L_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Blade	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Blade_R	</node>
-		<geometry>
-			<vertices>	SEA_Sword_Blade_R_32.vertices	</vertices>
-			<primitive>	SEA_Sword_Blade_R_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Blade	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Connector_L	</node>
-		<geometry>
-			<vertices>	SEA_Sword_Connector_L_32.vertices	</vertices>
-			<primitive>	SEA_Sword_Connector_L_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Blade	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Connector_R	</node>
-		<geometry>
-			<vertices>	SEA_Sword_Connector_R_32.vertices	</vertices>
-			<primitive>	SEA_Sword_Connector_R_32.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Blade	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFrontShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_crack_MidFront_in	</node>
-		<geometry>
-			<vertices>	Bow_crack_MidFront_inShape.vertices	</vertices>
-			<primitive>	Bow_crack_MidFront_inShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Bow_patch_MidFront	</node>
-		<geometry>
-			<vertices>	Bow_patch_MidFrontShape.vertices	</vertices>
-			<primitive>	Bow_patch_MidFrontShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0033 -0.0033 0.4116	</min>
 		<max>	0.0033 0.0033 0.4187	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BowShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_LogoPlanes	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Logo	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_LogoPlanes	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Logo.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_Sword_Handle_L_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Handle_L	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Blade	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_Sword_Handle_R_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Handle_R	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Blade	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_Sword_Blade_L_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Blade_L	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Blade	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_Sword_Blade_R_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Blade_R	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Blade	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_Sword_Connector_L_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Connector_L	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Blade	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	SEA_Sword_Connector_R_32	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Connector_R	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Blade	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952_Blade.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_inShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFrontShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_in_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront_in	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Crack	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/C002_Razlom.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_crack_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_crack_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Bow_patch_MidFront_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Bow_patch_MidFront	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_Hull	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/ship/FSD012_Kleber_1952.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	11.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BowShape	</renderSet>
+				<renderSet>	SEA_LogoPlanes	</renderSet>
+				<renderSet>	SEA_Sword_Handle_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Handle_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_R_32	</renderSet>
+				<renderSet>	Bow_crack_MidFrontShape	</renderSet>
+				<renderSet>	Bow_crack_MidFront_inShape	</renderSet>
+				<renderSet>	Bow_patch_MidFrontShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	25.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Bow_crack_MidFront_in_lod1Shape	</renderSet>
+				<renderSet>	SEA_LogoPlanes	</renderSet>
+				<renderSet>	SEA_Sword_Handle_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Handle_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_R_32	</renderSet>
+				<renderSet>	Bow_crack_MidFront_lod1Shape	</renderSet>
+				<renderSet>	Bow_lod1Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Bow_crack_MidFront_in_lod2Shape	</renderSet>
+				<renderSet>	SEA_LogoPlanes	</renderSet>
+				<renderSet>	SEA_Sword_Handle_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Handle_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_R_32	</renderSet>
+				<renderSet>	Bow_crack_MidFront_lod2Shape	</renderSet>
+				<renderSet>	Bow_lod2Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	300.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Bow_crack_MidFront_in_lod3Shape	</renderSet>
+				<renderSet>	SEA_LogoPlanes	</renderSet>
+				<renderSet>	SEA_Sword_Handle_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Handle_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Blade_R_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_L_32	</renderSet>
+				<renderSet>	SEA_Sword_Connector_R_32	</renderSet>
+				<renderSet>	Bow_crack_MidFront_lod3Shape	</renderSet>
+				<renderSet>	Bow_lod3Shape	</renderSet>
+				<renderSet>	Bow_patch_MidFront_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FSD012_Kleber_1952_Bow.visual>

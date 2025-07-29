@@ -1,14 +1,7 @@
 <FGA037_57mm_60_2_25_1951_dead.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Turret_dead	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,46 +9,122 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Panel	</identifier>
+				<identifier>	Turret_dead	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	Panel	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Panel	</node>
-		<geometry>
-			<vertices>	SEA_Panel.vertices	</vertices>
-			<primitive>	SEA_Panel.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_HoloDead	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_holo_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Turret_dead	</node>
-		<geometry>
-			<vertices>	Turret_deadShape.vertices	</vertices>
-			<primitive>	Turret_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBS_GunDead	</identifier>
-					<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.1278 0.0000 -0.1565	</min>
 		<max>	0.1278 0.2428 0.2135	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	SEA_Panel	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Panel	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_HoloDead	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_holo_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_dead_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_dead_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Turret_dead_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Turret_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/SEA_NEP_Kleber_Skadi/FSD110_Kleber/gun/FGA037_57mm_60_2_25_1951_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Panel	</renderSet>
+				<renderSet>	Turret_deadShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	5.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Panel	</renderSet>
+				<renderSet>	Turret_dead_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Panel	</renderSet>
+				<renderSet>	Turret_dead_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	90.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	SEA_Panel	</renderSet>
+				<renderSet>	Turret_dead_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FGA037_57mm_60_2_25_1951_dead.visual>

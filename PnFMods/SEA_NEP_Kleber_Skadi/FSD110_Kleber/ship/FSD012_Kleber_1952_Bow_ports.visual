@@ -1,14 +1,7 @@
 <FSD012_Kleber_1952_Bow_ports.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Bow_ports	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,99 +9,120 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_FGM_1	</identifier>
+				<identifier>	Bow_ports	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.4090 2.8814 1.0000	</row3>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_FGM_2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.5177 2.3608 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_FX_Death_1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 2.6143 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_FX_Fire_1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.4110 3.7337 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_FX_WakeTrace	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 4.3951 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_Ship_death_1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 2.6143 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM950_Anchor_bottom	</identifier>
-				<transform>
-					<row0>	0.3325 0.5436 0.1281 0.0000	</row0>
-					<row1>	0.0913 0.0942 -0.6366 0.0000	</row1>
-					<row2>	-0.5510 0.3437 -0.0282 0.0000	</row2>
-					<row3>	0.1007 0.3522 4.3986 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM950_Anchor_bottom_INDEX_1	</identifier>
-				<transform>
-					<row0>	0.3325 -0.5436 -0.1281 0.0000	</row0>
-					<row1>	-0.0913 0.0942 -0.6366 0.0000	</row1>
-					<row2>	0.5510 0.3437 -0.0282 0.0000	</row2>
-					<row3>	-0.1007 0.3522 4.3986 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM951_Anchor_up	</identifier>
-				<transform>
-					<row0>	0.3325 0.5436 0.1281 0.0000	</row0>
-					<row1>	-0.2242 0.2664 -0.5489 0.0000	</row1>
-					<row2>	-0.5115 0.2366 0.3238 0.0000	</row2>
-					<row3>	0.1007 0.3522 4.3986 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_FM951_Anchor_up_INDEX_1	</identifier>
-				<transform>
-					<row0>	0.3325 -0.5436 -0.1281 0.0000	</row0>
-					<row1>	0.2242 0.2664 -0.5489 0.0000	</row1>
-					<row2>	0.5115 0.2366 0.3238 0.0000	</row2>
-					<row3>	-0.1007 0.3522 4.3986 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	HP_FGM_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.4090 2.8814 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_FGM_2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.5177 2.3608 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_FX_Death_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 2.6143 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_FX_Fire_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.4110 3.7337 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_FX_WakeTrace	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 4.3951 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_Ship_death_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 2.6143 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM950_Anchor_bottom	</identifier>
+					<transform>
+						<row0>	0.3325 0.5436 0.1281 0.0000	</row0>
+						<row1>	0.0913 0.0942 -0.6366 0.0000	</row1>
+						<row2>	-0.5510 0.3437 -0.0282 0.0000	</row2>
+						<row3>	0.1007 0.3522 4.3986 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM950_Anchor_bottom_INDEX_1	</identifier>
+					<transform>
+						<row0>	0.3325 -0.5436 -0.1281 0.0000	</row0>
+						<row1>	-0.0913 0.0942 -0.6366 0.0000	</row1>
+						<row2>	0.5510 0.3437 -0.0282 0.0000	</row2>
+						<row3>	-0.1007 0.3522 4.3986 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM951_Anchor_up	</identifier>
+					<transform>
+						<row0>	0.3325 0.5436 0.1281 0.0000	</row0>
+						<row1>	-0.2242 0.2664 -0.5489 0.0000	</row1>
+						<row2>	-0.5115 0.2366 0.3238 0.0000	</row2>
+						<row3>	0.1007 0.3522 4.3986 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_FM951_Anchor_up_INDEX_1	</identifier>
+					<transform>
+						<row0>	0.3325 -0.5436 -0.1281 0.0000	</row0>
+						<row1>	0.2242 0.2664 -0.5489 0.0000	</row1>
+						<row2>	0.5115 0.2366 0.3238 0.0000	</row2>
+						<row3>	-0.1007 0.3522 4.3986 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0667 -0.0667 -0.0667	</min>
 		<max>	0.0667 0.0667 0.0667	</max>
 	</boundingBox>
+	<renderSets />
+	<lods>
+		<lod>
+			<extent>	200.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets />
+		</lod>
+	</lods>
 </FSD012_Kleber_1952_Bow_ports.visual>
